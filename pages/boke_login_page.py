@@ -1,5 +1,6 @@
 #coding:utf-8
 import time
+
 class LoginBokeYuan():
 
 	def __init__(self,driver):

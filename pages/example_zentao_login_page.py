@@ -1,6 +1,5 @@
 from selenium import webdriver
 from common.base import Base
-
 '''
 步骤1、先定个类
 步骤2、把元素定位全写出来
@@ -11,7 +10,7 @@ from common.base import Base
 #全局变量放在类的外面
 login_url= 'http://127.0.0.1:81/zentao/user-login.html'
 
-class Login_page(Base):     #继承了就不用实例化了
+class Login_page(Base):
 
 	#定位元素
 	loc_user=('id','account')

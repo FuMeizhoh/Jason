@@ -1,8 +1,3 @@
-'''
-定位元素参数化
-封装click,send keys,
-新的等待时间写法
-'''
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import *        #所有异常
@@ -236,7 +231,7 @@ if __name__=='__main__':
 	deng = Base(driver)
 	# loc1 = (By.ID,'kw')
 	# loc2 = (By.ID,'su')
-	loc1 = ('id','kw')          #这样写就不用再导入 By了
+	loc1 = ('id','kw')
 	loc2 = ('id','su')
 	deng.sendKeys(loc1,'sass')
 	deng.click(loc2)
