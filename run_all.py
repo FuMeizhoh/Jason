@@ -1,7 +1,7 @@
 import unittest
 from common import HTMLTestRunner_cn
 #查找用例的路径
-casePath = r'D:\web_chandao\\test_case'
+casePath = r'D:\\Git_Project\\web_test\\test_case'
 #用例的匹配规则，查找case
 rule = 'test*.py'
 
