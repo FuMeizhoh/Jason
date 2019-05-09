@@ -1,2 +1,4 @@
 ##ignore this file##
-.idea
+.idea/workspace.xml
+common/__pycache__
+pages/__pycache__
